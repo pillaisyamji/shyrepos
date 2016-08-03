@@ -1,0 +1,12 @@
+---
+ntp_servers:
+#- clock1.pro-puppet.com
+- clock1.pro-puppet.com
+- clock2.pro-puppet.com
+- clock3.pro-puppet.com
+
+hierauser:
+ gid: 2100
+ uid: 2100
+ gecos: Puppet Hiera test user
+ shell: /bin/bash

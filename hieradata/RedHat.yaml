@@ -1,0 +1,9 @@
+---
+ssh_packages: - 'openssh'
+              - 'openssh-clients'
+              - 'openssh-server'
+
+ssh_users         : 
+                    - shyamjipillai
+                    - edureka
+                    - puppet

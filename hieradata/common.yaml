@@ -1,0 +1,12 @@
+#---
+#permit_root_login : 'no'
+#ssh_users         : - root
+#
+---
+classes:
+  - "'common::roles::%{::role}'"
+users:
+  'HieratesT':
+    name: 'hieratest'
+    ensure: 'present'
+    managehome: true

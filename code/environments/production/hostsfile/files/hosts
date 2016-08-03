@@ -1,0 +1,16 @@
+############# welcome to devops puppet generated hosts file ####################################
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+#192.168.3.17 www.devops.com
+#192.168.3.17 client.devops.com
+#192.168.3.17 dummypage dummypage.devops.com
+#192.168.3.20 nagiosmaster monitoring.devops.com monitoring
+#127.0.0.1 nagiosmaster monitoring.devops.com monitoring
+10.225.20.29 puppetmaster puppetmaster.devops.com
+10.225.20.21 ns1 ns1.devops.com
+10.225.20.20 client.devops.com client dummypage.devops.com dummypage www.devops.com
+10.225.20.14 agent agent.devops.com
+192.168.3.17 client.devops.com client dummypage.devops.com dummypage www.devops.com
+192.168.3.16 puppetmaster puppetmaster.devops.com
+#10.225.20.20 nagiosmaster monitoring.devops.com monitoring nagiosmaster.devops.com
+

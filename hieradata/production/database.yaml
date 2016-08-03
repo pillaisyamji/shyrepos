@@ -1,0 +1,9 @@
+---
+mysql::server::root_password: 'root'
+
+databases:
+  hieradbtest:
+    user: 'hieratest'
+    password: 'hieratest'
+    host: 'client.devops.com'
+    grant: 'ALL'

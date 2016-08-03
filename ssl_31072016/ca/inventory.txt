@@ -1,0 +1,2 @@
+0x0001 2016-07-22T13:58:48UTC 2021-07-22T13:58:48UTC /CN=Puppet CA: puppetmaster.devops.com
+0x0002 2016-07-22T13:58:58UTC 2021-07-22T13:58:58UTC /CN=puppetmaster.devops.com

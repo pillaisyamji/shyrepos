@@ -1,0 +1,34 @@
+---
+:backends:
+  - yaml
+#  - json
+:hierarchy:
+   - defaults
+#   - "%{clientcert}"
+   - "%{environment}"
+   - global
+:merge_behavior: native
+
+   - "nodes/%{::trusted.certname}"
+   - "node/%{::fqdn}"
+   - defaults
+#  - common
+
+#  - "node/%{::fqdn}"
+#  - "%{::clientcert}"
+#  - "%{operatingsystem}"
+#  - "%{osfamily}"
+#  - "nodes/%{::trusted.certname}"
+#  - global
+#  - "%{::environment}/%{::role}"
+#  - "%{::role}"
+:yaml:
+# datadir is empty here, so hiera uses its defaults:
+# - /etc/puppetlabs/code/environments/%{environment}/hieradata on *nix
+# - %CommonAppData%\PuppetLabs\code\environments\%{environment}\hieradata on Windows
+# When specifying a datadir, make sure the directory exists.
+  :datadir: /etc/puppetlabs/hieradata
+:json:
+  :datadir: /etc/puppetlabs/hieradata
+#:logger: puppet
+
